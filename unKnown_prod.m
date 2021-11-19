@@ -30,7 +30,7 @@ p.vix(a) = vix.vix(b(a),2);
 clearvars -except p
 
 %% Run the model
-load('/Volumes/Z/anCodes/savedModels/rebo4.mat')
+load('rebo4.mat')
 px = cumret(p.ret(:,1));
 px2 = cumret(p.ret(:,9));  % invest grade
 px3 = cumret(p.ret(:,10)); % gold
