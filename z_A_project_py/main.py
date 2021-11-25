@@ -44,6 +44,11 @@ X[7,0] = px[('close','GLD')].pct_change(5).iloc[-1]
 X[8,0] = px[('close','GLD')].pct_change(10).iloc[-1]
 
 
+
+
+for i in range(0,20):
+    
+    tree = pd.read_csv('data/dtm' + str(i+1) + '.csv')
     
     
 
