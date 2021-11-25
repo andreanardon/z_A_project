@@ -1,0 +1,11 @@
+type,asset_class,bbg_ticker,name,figi,ticker
+ETF,Equities,SPY US Equity,S&P500,BBG000BDTBL9,SPY
+ETF,Equities,QQQ US Equity,Nasdaq,BBG000BSWKH7,QQQ
+ETF,Equities,QQQ US Equity,DowJones,BBG000BTDS98,DIA
+ETF,Govies,SHY US Equity,Treasury_1to3,BBG000NTFYM5,SHY
+ETF,Govies,IEI US Equity,Treasury_3to7,BBG000QN0RR1,IEI
+ETF,Govies,TLT US Equity,Treasury_20+,BBG000BJKYW3,TLT
+ETF,Govies,TIP US Equity,TIP_US,BBG000C01W49,TIP
+ETF,Credit,LQD US Equity,InvestmentGrade,BBG000BBV9N3,LQD
+ETF,Credit,HYG US Equity,HighYield,BBG000R2T3H9,HYG
+ETF,Commodities,GLD US Equity,Gold,BBG000CRF6Q8,GLD
