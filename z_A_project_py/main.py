@@ -110,4 +110,7 @@ W = W.mean(axis=0)
 
 univ['Weight'] = W
 
+
+univ.to_csv('data/output.csv')
+
 #%%
