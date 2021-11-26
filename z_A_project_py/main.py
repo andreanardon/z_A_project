@@ -110,3 +110,4 @@ W = W.mean(axis=0)
 
 univ['Weight'] = W
 
+#%%

@@ -24,11 +24,11 @@ def predict(X,id):
             
             if X[tree['XP'].iloc[n]-1] < tree['CP'].iloc[n]:
                 
-                n = tree['CC_1'].iloc[n]
+                n = tree['CC_1'].iloc[n]-1
                 
             elif X[tree['XP'].iloc[n]-1] >= tree['CP'].iloc[n]:
                 
-                n = tree['CC_2'].iloc[n]
+                n = tree['CC_2'].iloc[n]-1
                 
             else:
                 
@@ -46,4 +46,4 @@ def predict(X,id):
     elif out==-1:
         out = 1
         
-    return weights[out-1,:]
+    return weights[out,:]
